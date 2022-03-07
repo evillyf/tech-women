@@ -13,9 +13,11 @@
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
+
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,7 +25,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>ELAS</h3>
+                <h3 id="elas">ELAS</h3>
             </div>
 
             <ul class="list-unstyled components">
@@ -31,13 +33,22 @@
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Nomes</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Home 1</a>
+                            <a href="#ada_lovelace">Ada Lovelace</a>
                         </li>
                         <li>
-                            <a href="#">Home 2</a>
+                            <a href="#grace_hooper">Grace Hooper</a>
                         </li>
                         <li>
-                            <a href="#">Home 3</a>
+                            <a href="#dorothy_vaughan">Dorothy Johnson Vaughan</a>
+                        </li>
+                        <li>
+                            <a href="#mary_jackson">Mary Jackson</a>
+                        </li>
+                        <li>
+                            <a href="#carol_shaw">Carol Shaw</a>
+                        </li>
+                        <li>
+                            <a href="#michelle_simmons">Michelle Simmons</a>
                         </li>
                     </ul>
                 </li>
@@ -53,27 +64,31 @@
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download PDF</a>
+                    <a href="https://drive.google.com/file/d/1QsIAiOc1w-Xb81oMgb0aBOyz2hViEMf8/view?usp=sharing" target="_blank" class="download">Download PDF</a>
                 </li>
                 <li>
                     <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Mais Artigos</a>
                 </li>
             </ul>
+            <div class="mx-auto" style="width: 50px;">
+                <a href="#elas">
+            <i style="width: 40px; height: 40px;color:black;position:fixed;" class="fas fa-angle-up"></i>
+                </a>
+
+            </div>
         </nav>
 
         <!-- Page Content  -->
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
+                    <button type="button" id="sidebarCollapse" class="btn btn-dark position-fixed">
                         <i class="fas fa-align-left"></i>
                         <span>Navegar</span>
                     </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
+
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
@@ -84,7 +99,7 @@
             </nav>
 
             <h2 style="text-align: center;">{MULHERES QUE FIZERAM HISTÓRIA NA TECNOLOGIA}</h2>
-            <p>
+            <p class="c">
                 #include <iostream><br>
                 using namespace std;<br>
                 int main ()<br>
@@ -96,24 +111,170 @@ colegas homens. De Ada Lovelace a Michelle Simmons, confira
 nessa linha do tempo os principais marcos e as mulheres que
 fizeram e fazem história na tecnologia.<br>
 }           </p>
+            <div id="ada_lovelace" class="line"></div>
+            <span>DEZEMBRO 10, 1815 — NOVEMBRO 27, 1852</span>
+            <h2>Ada Lovelace</h2>
+            <p>A <b>primeira pessoa a programar </b>foi uma mulher. Filha do poeta Lord Byron e da matemática Lady Byron, Ada esteve desde cedo imersa no mundo dos números. Entretanto, sua mãe, com receio de que ela herdasse a natureza poética e boêmia do pai, colocou-a desde a primeira infância para estudar matemática e ciências.
+
+Aos 17 anos Ada conheceu o cientista e matemático inglês Charles Babbage. Na época, Babbage convidou Lovelace a fazer a tradução de um artigo escrito por Luigi Menabrea, engenheiro militar e futuro ministro italiano. No artigo, Menabrea falava sobre uma máquina de calcular inventada por Babbage. Ada traduziu os arquivos, mas também acrescentou diversas notas que mais tarde ficaram conhecidas como anotações sobre o mecanismo analítico. Ela também foi responsável por classificar o algoritmo contido na máquina, conhecido como Sequência de Bernoulli, o que mais tarde se tornou o primeiro a ser implementado por um computador.
+
+Na época, Lovelace não encontrou nenhum mecanismo em que pudesse colocar seus estudos a prova. Entretanto, alguns anos depois, após sua morte, o algoritmo foi provado como correto.
+
+Em 2008, a Sociedade Britânica de Computação criou a Medalha Lovelace, prêmio dado a pesquisadores que desenvolvem grandes projetos relacionados a sistemas de informação. </p>
+
+
+
+            <div  id="grace_hooper" class="line"></div>
+            <span>DEZEMBRO 9, 1906 — JANEIRO 1, 1992</span>
+            <h2>Grace Hooper</h2>
+            <p>Foi uma cientista da computação norte americana e Contra-almirante
+                da Marinha dos Estados Unidos. Uma das primeiras programadoras do
+                computador Harvard Mark I em 1944, inventou o primeiro compilador
+                para uma linguagem de programação (que transforma um código de
+                programação em código binário) e foi uma das pessoas que
+                popularizou a ideia de linguagem de programação independente de
+                máquina que levou ao desenvolvimento de COBOL, uma das primeiras
+                linguagens de programação a se aproximar da linguagem humana.</p>
+
+
+
+            <div  id="dorothy_vaughan" class="line"></div>
+            <span>1910 — 2008</span>
+            <h2>Dorothy Johnson Vaughan</h2>
+            <p>Nascida no estado do Missouri, Dorothy Vaughan formou-se em
+                Matemática e ingressou na NACA, agência que viria a se tornar a NASA,
+                em 1943. Especializou-se em computação e seis anos depois chefiou um
+                grupo composto somente por mulheres afro-americanas formadas em
+                matemática. Dominava computação eletrônica, programação e o
+                processo operacional da primeira máquina IBM usada pelo órgao
+                governamental. Aposentou-se em 1971. Sua história é contada no filme
+                'Estrelas Além do Tempo'</p>
+            <span><b>ESTRELAS ALÉM DO TEMPO — 2017</b></span>
+                 <p>O filme "Estrelas Além do Tempo" (Hidden Figures, EUA, 2016, 127 min)
+                    conta a trajetória de 3 cientistas da NASA na década de 60. Mulheres
+                    negras, enfrentaram todo o preconceito de seu tempo e deram
+                    valisoas contribuições ao país, que vivia o auge da corrida espacial.</p>
+            <span>Confira o trailer do filme no vídeo abaixo:</span>
+
+            <!-- video -->
+
+
+
+            <div  id="mary_jackson" class="line"></div>
+            <span>1921 — 2005</span>
+            <h2>Mary Jackson</h2>
+            <p>Jackson se formou no Hampton Institute em 1942 com um diploma duplo em Matemática e Ciências Físicas. Foi apenas em 1951 que a cientista começou a trabalhar com o grupo segregado West Area Computers. Após dois anos trabalhando lado a lado com Dorothy Vaughan, Jackson trabalhou para o engenheiro Kazimierz Czarnecki no Túnel de Pressão Supersônico, um túnel de vento de 60 mil cavalos que era capaz de explodir quase qualquer coisa com ventos próximos ao dobro da velocidade do som.
+
+Para que pudesse realizar experimentos dentro do túnel, Jackson precisou entrar em um treinamento que a promoveria de matemática para engenheira. No entanto, as aulas eram realizadas na segregada Escola Secundária de Hampton e ela precisou de uma permissão especial para se juntar aos alunos brancos. Em 1958, Jackson se tornou a primeira engenheira mulher e negra da Nasa.
+
+A cientista foi autora e coautora de uma dúzia de relatórios de pesquisa. A maioria desses estudos são focados no comportamento da camada limite de ar em torno de aviões.<p>
+
+
+            <div  id="carol_shaw" class="line"></div>
+            <span>1955</span>
+            <h2>Carol Shaw</h2>
+            <p>Menina também joga (e ainda trabalha com desenvolvimento de games). Mas é sabido que, assim como em demais setores do universo da tecnologia e da ciência, é um tanto difícil que mulheres conquistem seu espaço dentro desses “clubes do bolinha”. Contudo, algumas se destacam e a primeira delas no mundo dos games foi Carol Shaw, desenvolvedora de jogos eletrônicos no final da década de 1970.
+
+Sim, Shaw é a primeira mulher a trabalhar na indústria de games, sendo uma das principais pioneiras para a igualdade de gêneros nesse segmento. Primeiro, a desenvolvedora trabalhou em Polo (jogo de 1978 feito para uma campanha promocional da grife Ralph Lauren), e na sequência lançou comercialmente o primeiro jogo criado por uma mulher: era o 3-D Tic-Tac-Toe, de 1979, baseado no tradicional jogo da velha. Depois, entrou na Activision, onde programou River Raid em 1983 – seu game mais famoso.
+                <p>
+
+
+
+            <div id="michelle_simmons" class="line"></div>
+            <span>JULHO 14, 1967</span>
+            <h2>Michelle Simmons</h2>
+            <p>Professora de Física na Universidade de South Wales, na Austrália,
+                Michelle Simmons é uma das cientistas mais importantes em sua área.
+                Atualmente, ela e seu time avaliam a possibilidade de construção do
+                primeiro computador quântico, usando principalmente os elementos
+                silício e germânio para construir dispositivos em escala atômica. Eles
+                são a única equipe no mundo todo capaz de produzir dispositivos de
+                silício com a precisão necessária e já desenvolveram o menor transistor
+                do mundo, com um único átomo. Ela já publicou mais de 360 artigos
+                nas revistas científicas mais prestigiadas do mundo, incluindo a Nature
+                e a Science.<p>
+
+
+
             <div class="line"></div>
+            <span>GALERIA DE IMAGENS</span>
+             <!-- Carousel wrapper -->
+                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="imagens/ada.jpg" alt="Ada Lovelace">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>ADA LOVELACE</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/grace.jpg" alt="Grace Hooper">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>GRACE HOOPER</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/dorothy.png" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>DOROTHY JOHNSON VAUGHAN</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/mary.png" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>MARY JACKSON</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/carol.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>CAROL SHAWN</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/michelle.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>MICHELLE SIMMONS</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="imagens/michelle2.jpg" alt="Fourth slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>MICHELLE SIMMONS</h5>
+                       <!-- p linha em baixo para descrição-->
+                        <p></p>
+                        </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
 
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <div class="line"></div>
-
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="line"></div>
-
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
+<!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -127,6 +288,11 @@ fizeram e fazem história na tecnologia.<br>
             });
         });
     </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
