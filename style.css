@@ -13,7 +13,17 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
+    color: #black;
+}
+
+
+.c {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
     color: #999;
+}
 }
 
 a,
@@ -43,7 +53,7 @@ a:focus {
 .line {
     width: 100%;
     height: 1px;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed #880E4F;
     margin: 40px 0;
 }
 
@@ -116,7 +126,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #F06292;
 }
 
 ul.CTAs {
@@ -144,6 +154,10 @@ a.article:hover {
 
 .btn-dark{
 color: pink !important;
+}
+
+h5{
+text-shadow: 2px 2px #ff0000;
 }
 
 /* ---------------------------------------------------
