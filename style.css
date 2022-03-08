@@ -14,7 +14,8 @@ p {
     font-weight: 300;
     line-height: 1.7em;
     color: #black;
-    text-align: justify !important;
+    text-justify: auto !important;
+
 
 }
 
