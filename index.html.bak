@@ -283,7 +283,7 @@ Sim, Shaw é a primeira mulher a trabalhar na indústria de games, sendo uma das
                 <a style="color:black;" ><i>"Que a gente nunca pare de inovar!"</i></a>
             </div>
             <div class="d-flex flex-row justify-content-center align-items-center mt-3">
-			<button class="bt btn-dark">
+			<button background-color: black;>
                 <a style="color:hotpink;" href="https://evillyf.github.io/meu-contato/" target="_blank"><b>evilly ferreira</b> </button> &nbsp— <i>08/03/2022</i></a>
            
 			</div>
