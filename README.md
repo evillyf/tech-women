@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/61359076/159392322-805b4b25-67d9-4765-
   
   
   
-  ## 📱: DEMONSTRAÇÃO MOBILE
+  ## 📱 DEMONSTRAÇÃO MOBILE
   
   
 
