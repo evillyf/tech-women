@@ -19,3 +19,26 @@
  
 <br>
 <br>
+
+  
+  ## :computer: DEMONSTRAÇÃO WEB
+  
+  
+
+https://user-images.githubusercontent.com/61359076/159392322-805b4b25-67d9-4765-b74a-1daf6af8370c.mp4
+
+
+  <br>
+  <br>
+  
+  
+  
+  
+  ## 📱: DEMONSTRAÇÃO MOBILE
+  
+  
+
+https://user-images.githubusercontent.com/61359076/159392596-7805c6f2-307a-400e-919a-29cf744012a9.mp4
+
+
+  
